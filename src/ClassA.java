@@ -41,19 +41,18 @@ public class ClassA {
 	}
 
 	//sets x
-	public void setX(int temp1) {
-		x = temp1;	
+	public void setX(int x) {
+		this.x = x;	
 	}
 
 	//gets x
 	public int getX(){
 		return x;
 	}
-
 	
 	//sets z
-	public void setZ(int temp2) {
-		z = temp2;	
+	public void setZ(int z) {
+		this.z = z;	
 	}
 	//gets z
 	public int getZ(){
