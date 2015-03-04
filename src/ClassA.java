@@ -26,16 +26,6 @@ public class ClassA {
 	//Adds int x
 	private int x;
 
-	//sets x
-	public void setX(int temp1) {
-		x = temp1;	
-	}
-
-	//gets x
-	public int getX(){
-		return x;
-	}
-
 	//getter for a
 	public int getA() {
 		return this.a;
@@ -50,6 +40,17 @@ public class ClassA {
 		return "a : " + a + "b : " + b + "y : " + y + "z : " + z;
 	}
 
+	//sets x
+	public void setX(int temp1) {
+		x = temp1;	
+	}
+
+	//gets x
+	public int getX(){
+		return x;
+	}
+
+	
 	//sets z
 	public void setZ(int temp2) {
 		z = temp2;	
