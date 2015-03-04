@@ -14,18 +14,48 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
-*/
+ */
 
 public class ClassA {
-	
+
 	private int a;
 	private int b;
 	private int y;
 	private int z;
-	
+
+	//Adds int x
+	private int x;
+
+	//getter for a
+	public int getA() {
+		return this.a;
+	}
+	//setter for a
+	public void setA(int a) {
+		this.a = a;
+	}
+
 	//@Override
 	public String toString() {
 		return "a : " + a + "b : " + b + "y : " + y + "z : " + z;
 	}
 
+	//sets x
+	public void setX(int x) {
+		this.x = x;	
+	}
+
+	//gets x
+	public int getX(){
+		return x;
+	}
+	
+	//sets z
+	public void setZ(int z) {
+		this.z = z;	
+	}
+	//gets z
+	public int getZ(){
+		return z;	
+	}
 }
