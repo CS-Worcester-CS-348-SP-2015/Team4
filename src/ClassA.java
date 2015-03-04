@@ -22,6 +22,18 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+	
+	//Adds int x
+	private int x;
+
+	//sets x
+	public void setX(int temp1) {
+		x = temp1;	}
+
+	//gets x
+	public int getX(){
+		return x;	}
+	
 	//getter for a
 	public int getA() {
 		return this.a;
@@ -30,6 +42,10 @@ public class ClassA {
 	public void setA(int a) {
 		this.a = a;
 	}
+	
+	
+	
+	
 
 	//@Override
 	public String toString() {
