@@ -22,5 +22,10 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+	
+	//@Override
+	public String toString() {
+		return "a : " + a + "b : " + b + "y : " + y + "z : " + z;
+	}
 
 }
