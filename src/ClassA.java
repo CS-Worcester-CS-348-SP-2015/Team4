@@ -28,11 +28,13 @@ public class ClassA {
 
 	//sets x
 	public void setX(int temp1) {
-		x = temp1;	}
+		x = temp1;	
+	}
 
 	//gets x
 	public int getX(){
-		return x;	}
+		return x;
+	}
 	
 	//getter for a
 	public int getA() {
@@ -42,21 +44,18 @@ public class ClassA {
 	public void setA(int a) {
 		this.a = a;
 	}
-	
-	
-	
-	
 
 	//@Override
 	public String toString() {
 		return "a : " + a + "b : " + b + "y : " + y + "z : " + z;
 	}
 
-	
 	//sets z
 	public void setZ(int temp2) {
-									z = temp2;	}
+		z = temp2;	
+	}
 	//gets z
 	public int getZ(){
-						return z;	}
+		return z;	
+	}
 }
