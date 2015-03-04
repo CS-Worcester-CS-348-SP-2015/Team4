@@ -36,4 +36,11 @@ public class ClassA {
 		return "a : " + a + "b : " + b + "y : " + y + "z : " + z;
 	}
 
+	
+	//sets z
+	public void setZ(int temp2) {
+									z = temp2;	}
+	//gets z
+	public int getZ(){
+						return z;	}
 }
