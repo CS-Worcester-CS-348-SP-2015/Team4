@@ -17,20 +17,20 @@
 */
 
 public class ClassA {
-	
+
 	private int a;
 	private int b;
 	private int y;
 	private int z;
-    //getter for a
-    public int getA() {
-        return this.a;
-    }
-    //setter for a
-    public void setA(int a) {
-        this.a = a;
-    }
-    
+	//getter for a
+	public int getA() {
+		return this.a;
+	}
+	//setter for a
+	public void setA(int a) {
+		this.a = a;
+	}
+
 	//@Override
 	public String toString() {
 		return "a : " + a + "b : " + b + "y : " + y + "z : " + z;
